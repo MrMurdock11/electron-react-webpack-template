@@ -1,0 +1,22 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	font-weight: bold;
+	padding: 20px 0 0 50px;
+}
+
+.container > * + * {
+	margin-top: 20px;
+}
+
+.message {
+	font-size: 40px;
+}
+
+.technology {
+	font-size: 30px;
+}
+
+.post_scriptum {
+	font-size: 23px;
+}

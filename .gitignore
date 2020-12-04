@@ -1,0 +1,10 @@
+#VS Code
+/.vscode/
+
+# Project
+/dist/
+/release/
+
+#NodeJS
+/node_modules/
+package-lock.json
