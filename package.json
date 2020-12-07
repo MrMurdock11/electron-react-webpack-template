@@ -6,7 +6,7 @@
     "dev:renderer": "webpack-dev-server --config ./webpack.renderer.config.js --mode development",
     "prod:main": "webpack --config ./webpack.main.config.js --mode production",
     "prod:renderer": "webpack --config ./webpack.renderer.config.js --mode production",
-    "package": "electron-packager ./dist --platform win32 --arch x64 --out ./release --overwrite",
+    "package": "electron-packager ./dist --platform win32 --arch x64 --out ./release --overwrite --asar",
     "release": "npm run prod:main && npm run prod:renderer && npm run package"
   },
   "devDependencies": {
